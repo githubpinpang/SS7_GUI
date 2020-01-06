@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CRUD.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(322): warning C4129: 'S' : unrecognized character escape sequence
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(355): warning C4129: 'S' : unrecognized character escape sequence
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(356): warning C4129: 'S' : unrecognized character escape sequence
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(326): warning C4101: 'myreader' : unreferenced local variable
+  help.cpp
+  SS7_GUI.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(322): warning C4129: 'S' : unrecognized character escape sequence
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(355): warning C4129: 'S' : unrecognized character escape sequence
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(356): warning C4129: 'S' : unrecognized character escape sequence
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(326): warning C4101: 'myreader' : unreferenced local variable
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  SS7_GUI.vcxproj -> C:\Users\Vostro 3568\Documents\Visual Studio 2010\Projects\SS7_GUI\Release\SS7_GUI.exe

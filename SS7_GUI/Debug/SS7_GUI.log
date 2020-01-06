@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  CRUD.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(273): error C2065: 'sqlenvhandle' : undeclared identifier
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(275): error C2065: 'sqlenvhandle' : undeclared identifier
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(278): error C2065: 'sqlenvhandle' : undeclared identifier
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(278): error C2065: 'sqlconnectionhandle' : undeclared identifier
+  help.cpp
+  SS7_GUI.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(273): error C2065: 'sqlenvhandle' : undeclared identifier
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(275): error C2065: 'sqlenvhandle' : undeclared identifier
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(278): error C2065: 'sqlenvhandle' : undeclared identifier
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(278): error C2065: 'sqlconnectionhandle' : undeclared identifier
+  Generating Code...

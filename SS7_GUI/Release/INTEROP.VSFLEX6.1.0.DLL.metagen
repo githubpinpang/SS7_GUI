@@ -1,0 +1,2128 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Interop.VSFlex6.1.0, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly Interop.MSDATASRC.1.0, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Struct VSFlex6.ClearWhatSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ClearWhatSettings flexClearEverything = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ClearWhatSettings flexClearText = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ClearWhatSettings flexClearFormatting = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.ClearWhatSettings flexClearData = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.ClearWhereSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ClearWhereSettings flexClearEverywhere = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ClearWhereSettings flexClearScrollable = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ClearWhereSettings flexClearSelection = 2 : Public, Static, Literal, HasDefault
+Interface VSFlex6.IvsFlexGrid: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    Int32 _ConvInfo 'get set' : 
+    System.String FontName 'get set' : 
+    Single FontSize 'get set' : 
+    Boolean FontBold 'get set' : 
+    Boolean FontItalic 'get set' : 
+    Boolean FontStrikethru 'get set' : 
+    Boolean FontUnderline 'get set' : 
+    Int32 Rows 'get set' : 
+    Int32 Cols 'get set' : 
+    Int16 Version 'get set' : 
+    System.String FormatString 'get set' : 
+    Int32 FixedRows 'get set' : 
+    Int32 FixedCols 'get set' : 
+    Int32 TopRow 'get set' : 
+    Int32 LeftCol 'get set' : 
+    Int32 RowSel 'get set' : 
+    Int32 ColSel 'get set' : 
+    Int32 Row  'get set' : 
+    Int32 Col  'get set' : 
+    System.String Text 'get set' : 
+    UInt32 BackColor 'get set' : 
+    UInt32 ForeColor 'get set' : 
+    UInt32 BackColorFixed 'get set' : 
+    UInt32 ForeColorFixed 'get set' : 
+    UInt32 BackColorSel 'get set' : 
+    UInt32 ForeColorSel 'get set' : 
+    UInt32 BackColorBkg 'get set' : 
+    Boolean WordWrap 'get set' : 
+    VSFlex6.TextStyleSettings TextStyle 'get set' : 
+    VSFlex6.TextStyleSettings TextStyleFixed 'get set' : 
+    Boolean ScrollTrack 'get set' : 
+    VSFlex6.FocusRectSettings FocusRect 'get set' : 
+    VSFlex6.ShowSelSettings HighLight 'get set' : 
+    Boolean Redraw 'get set' : 
+    VSFlex6.ScrollBarsSettings ScrollBars 'get set' : 
+    Int32 MouseRow 'get ' : 
+    Int32 MouseCol 'get ' : 
+    Int32 CellLeft 'get ' : 
+    Int32 CellTop 'get ' : 
+    Int32 CellWidth 'get ' : 
+    Int32 CellHeight 'get ' : 
+    Int32 RowHeightMin 'get set' : 
+    VSFlex6.FillStyleSettings FillStyle 'get set' : 
+    VSFlex6.GridStyleSettings GridLines 'get set' : 
+    VSFlex6.GridStyleSettings GridLinesFixed 'get set' : 
+    UInt32 GridColor 'get set' : 
+    UInt32 GridColorFixed 'get set' : 
+    UInt32 CellBackColor 'get set' : 
+    UInt32 CellForeColor 'get set' : 
+    VSFlex6.AlignmentSettings CellAlignment 'get set' : 
+    VSFlex6.TextStyleSettings CellTextStyle 'get set' : 
+    stdole.IPictureDisp CellPicture 'get set' : 
+    VSFlex6.PictureAlignmentSettings CellPictureAlignment 'get set' : 
+    System.String CellFontName 'get set' : 
+    Single CellFontSize 'get set' : 
+    Boolean CellFontBold 'get set' : 
+    Boolean CellFontItalic 'get set' : 
+    Single CellFontWidth 'get set' : 
+    Boolean CellFontUnderline 'get set' : 
+    Boolean CellFontStrikethru 'get set' : 
+    Single FontWidth 'get set' : 
+    System.String Clip 'get set' : 
+    VSFlex6.SortSettings Sort 'set' : 
+    VSFlex6.SelModeSettings SelectionMode 'get set' : 
+    VSFlex6.MergeSettings MergeCells 'get set' : 
+    stdole.IPictureDisp Picture 'get ' : 
+    VSFlex6.PictureTypeSettings PictureType 'get set' : 
+    Boolean AllowBigSelection 'get set' : 
+    VSFlex6.AllowUserResizeSettings AllowUserResizing 'get set' : 
+    VSFlex6.MousePointerSettings MousePointer 'get set' : 
+    stdole.IPictureDisp MouseIcon 'get set' : 
+    System.String DataMember 'get set' : 
+    MSDATASRC.DataSource DataSource 'get set' : 
+    Boolean VirtualData 'get set' : 
+    Boolean Editable 'get set' : 
+    System.String ComboList 'get set' : 
+    Double Value 'get ' : 
+    UInt32 FloodColor 'get set' : 
+    Int16 CellFloodPercent 'get set' : 
+    UInt32 CellFloodColor 'get set' : 
+    VSFlex6.SubtotalPositionSettings SubtotalPosition 'get set' : 
+    VSFlex6.BorderStyleSettings BorderStyle 'get set' : 
+    stdole.IFontDisp Font 'get set' : 
+    Boolean Enabled 'get set' : 
+    VSFlex6.AppearanceSettings Appearance 'get set' : 
+    VSFlex6.OutlineBarSettings OutlineBar 'get set' : 
+    UInt32 TreeColor 'get set' : 
+    Int16 GridLineWidth 'get set' : 
+    Boolean AutoResize 'get set' : 
+    Int32 BottomRow 'get ' : 
+    Int32 RightCol 'get ' : 
+    Boolean ExtendLastCol 'get set' : 
+    Int32 ClientWidth 'get ' : 
+    Int32 ClientHeight 'get ' : 
+    System.String EditText 'get set' : 
+    Int32 hWnd 'get ' : 
+    VSFlex6.AutoSizeSettings AutoSizeMode 'get set' : 
+    Boolean RightToLeft 'get set' : 
+    Boolean MultiTotals 'get set' : 
+    UInt32 BackColorAlternate 'get set' : 
+    VSFlex6.OwnerDrawSettings OwnerDraw 'get set' : 
+    VSFlex6.DataModeSettings DataMode 'get set' : 
+    VSFlex6.OLEDragModeSettings OLEDragMode 'get set' : 
+    VSFlex6.OLEDropModeSettings OLEDropMode 'get set' : 
+    VSFlex6.TabBehaviorSettings TabBehavior 'get set' : 
+    UInt32 SheetBorder 'get set' : 
+    Boolean AllowSelection 'get set' : 
+    Boolean PicturesOver 'get set' : 
+    VSFlex6.CellCheckedSettings CellChecked 'get set' : 
+    VSFlex6.MergeCompareSettings MergeCompare 'get set' : 
+    VSFlex6.EllipsisSettings Ellipsis 'get set' : 
+    Int32 OutlineCol 'get set' : 
+    Int32 RowHeightMax 'get set' : 
+    VSFlex6.AutoSearchSettings AutoSearch 'get set' : 
+    VSFlex6.ExplorerBarSettings ExplorerBar 'get set' : 
+    System.String EditMask 'get set' : 
+    Int32 EditSelStart 'get set' : 
+    Int32 EditSelLength 'get set' : 
+    System.String EditSelText 'get set' : 
+    Int32 EditMaxLength 'get set' : 
+    Int32 ComboIndex 'get set' : 
+    Int32 ComboCount 'get ' : 
+    VSFlex6.AlignmentSettings ColAlignment [Int32] 'get set' : 
+    Int32 ColWidth [Int32] 'get set' : 
+    Int32 RowHeight [Int32] 'get set' : 
+    Boolean MergeRow [Int32] 'get set' : 
+    Boolean MergeCol [Int32] 'get set' : 
+    Int32 RowPosition [Int32] 'set' : 
+    Int32 ColPosition [Int32] 'set' : 
+    System.Object RowData [Int32] 'get set' : 
+    System.Object ColData [Int32] 'get set' : 
+    System.String TextMatrix [Int32, Int32] 'get set' : 
+    Double ValueMatrix [Int32, Int32] 'get ' : 
+    Boolean IsSubtotal [Int32] 'get set' : 
+    VSFlex6.AlignmentSettings FixedAlignment [Int32] 'get set' : 
+    Boolean RowIsVisible [Int32] 'get ' : 
+    Boolean ColIsVisible [Int32] 'get ' : 
+    Int32 RowPos [Int32] 'get ' : 
+    Int32 ColPos [Int32] 'get ' : 
+    Boolean IsSelected [Int32] 'get set' : 
+    System.String TextArray [Int32] 'get set' : 
+    VSFlex6.CollapsedSettings IsCollapsed [Int32] 'get set' : 
+    System.Object ArchiveInfo [System.String, VSFlex6.ArchiveInfoSettings, System.Object] 'get ' : 
+    VSFlex6.SortSettings ColSort [Int32] 'get set' : 
+    System.String ColFormat [Int32] 'get set' : 
+    VSFlex6.DataTypeSettings ColDataType [Int32] 'get set' : 
+    System.Object Cell [VSFlex6.CellPropertySettings, System.Object, System.Object, System.Object, System.Object] 'get set' : 
+    VSFlex6.RowStatusSettings RowStatus [Int32] 'get set' : 
+    Int32 FindRow [System.Object, System.Object, System.Object] 'get ' : 
+    System.String ComboItem [System.Object] 'get ' : 
+    Int32 ComboData [System.Object] 'get ' : 
+    System.String ColEditMask [Int32] 'get set' : 
+    System.String ColComboList [Int32] 'get set' : 
+    Int16 RowOutlineLevel [Int32] 'get set' : 
+    Int32 SelectedRows 'get ' : 
+    Int32 SelectedRow [Int32] 'get ' : 
+    Boolean ScrollTips 'get set' : 
+    System.String ScrollTipText 'get set' : 
+    Boolean RowHidden [Int32] 'get set' : 
+    Boolean ColHidden [Int32] 'get set' : 
+    Int32 ColWidthMin 'get set' : 
+    Int32 ColWidthMax 'get set' : 
+    Boolean ShowComboButton 'get set' : 
+  Methods:
+    get_IsSubtotal(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_IsSubtotal(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Subtotal(SubtotalSettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Refresh(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Outline(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_FixedAlignment(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FixedAlignment(Int32, AlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowIsVisible(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColIsVisible(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowPos(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColPos(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsSelected(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_IsSelected(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TextArray(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TextArray(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsCollapsed(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_IsCollapsed(Int32, CollapsedSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Select(Int32, Int32, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AutoSize(Int32, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DataRefresh(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CellBorder(UInt32, Int16, Int16, Int16, Int16, Int16, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLEDrag(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SaveGrid(String(HasFieldMarshal), SaveLoadSettings, Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LoadGrid(String(HasFieldMarshal), SaveLoadSettings, Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Archive(String(HasFieldMarshal), String(HasFieldMarshal), ArchiveSettings): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ArchiveInfo(String(HasFieldMarshal), ArchiveInfoSettings, Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColSort(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColSort(Int32, SortSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColFormat(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColFormat(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColDataType(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColDataType(Int32, DataTypeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Cell(CellPropertySettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    let_Cell(CellPropertySettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Cell(CellPropertySettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowStatus(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowStatus(Int32, RowStatusSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FindRow(Object(HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ComboItem(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ComboData(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    BindToArray(Object(HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ColEditMask(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColEditMask(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColComboList(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColComboList(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowOutlineLevel(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowOutlineLevel(Int32, Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_SelectedRows(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_SelectedRow(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ScrollTips(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ScrollTips(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ScrollTipText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ScrollTipText(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowHidden(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowHidden(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColHidden(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColHidden(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColWidthMin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColWidthMin(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColWidthMax(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColWidthMax(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetMergedRange(Int32, Int32, Int32&, Int32&, Int32&, Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ShowComboButton(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ShowComboButton(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    About(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_AutoResize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AutoResize(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BottomRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RightCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ExtendLastCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ExtendLastCol(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ClientWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ClientHeight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EditText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_EditText(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_hWnd(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_AutoSizeMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AutoSizeMode(AutoSizeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RightToLeft(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RightToLeft(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MultiTotals(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MultiTotals(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BackColorAlternate(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BackColorAlternate(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_OwnerDraw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_OwnerDraw(OwnerDrawSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_DataMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_DataMode(DataModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_OLEDragMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_OLEDragMode(OLEDragModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_OLEDropMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_OLEDropMode(OLEDropModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TabBehavior(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TabBehavior(TabBehaviorSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_SheetBorder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_SheetBorder(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_AllowSelection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AllowSelection(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_PicturesOver(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_PicturesOver(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellChecked(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellChecked(CellCheckedSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MergeCompare(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MergeCompare(MergeCompareSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Ellipsis(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Ellipsis(EllipsisSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_OutlineCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_OutlineCol(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowHeightMax(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowHeightMax(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_AutoSearch(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AutoSearch(AutoSearchSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ExplorerBar(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ExplorerBar(ExplorerBarSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EditMask(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_EditMask(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EditSelStart(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_EditSelStart(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EditSelLength(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_EditSelLength(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EditSelText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_EditSelText(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EditMaxLength(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_EditMaxLength(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ComboIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ComboIndex(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ComboCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColAlignment(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColAlignment(Int32, AlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColWidth(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColWidth(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowHeight(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowHeight(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MergeRow(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MergeRow(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MergeCol(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MergeCol(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowPosition(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColPosition(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowData(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowData(Int32, Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColData(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColData(Int32, Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    AddItem(String(HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoveItem(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_TextMatrix(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TextMatrix(Int32, Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Clear(Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EditCell(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ValueMatrix(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GridColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GridColorFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GridColorFixed(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellBackColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellBackColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellForeColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellForeColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellAlignment(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellAlignment(AlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellTextStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellTextStyle(TextStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellPicture(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    let_CellPicture(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellPicture(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellPictureAlignment(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellPictureAlignment(PictureAlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontName(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontSize(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontBold(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontBold(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontItalic(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontItalic(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontWidth(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontUnderline(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontUnderline(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFontStrikethru(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFontStrikethru(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontWidth(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Clip(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Clip(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Sort(SortSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_SelectionMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_SelectionMode(SelModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MergeCells(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MergeCells(MergeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Picture(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_PictureType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_PictureType(PictureTypeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_AllowBigSelection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AllowBigSelection(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_AllowUserResizing(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_AllowUserResizing(AllowUserResizeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MousePointer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MousePointer(MousePointerSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MouseIcon(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    let_MouseIcon(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MouseIcon(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_DataMember(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_DataMember(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_DataSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_DataSource(DataSource(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_VirtualData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_VirtualData(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Editable(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Editable(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ComboList(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ComboList(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Value(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FloodColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FloodColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFloodPercent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFloodPercent(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellFloodColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CellFloodColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_SubtotalPosition(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_SubtotalPosition(SubtotalPositionSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BorderStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BorderStyle(BorderStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Font(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    let_Font(IFontDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Font(IFontDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Enabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Enabled(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Appearance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Appearance(AppearanceSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_OutlineBar(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_OutlineBar(OutlineBarSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TreeColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TreeColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GridLineWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GridLineWidth(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get__ConvInfo(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set__ConvInfo(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontName(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontSize(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontBold(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontBold(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontItalic(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontItalic(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontStrikethru(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontStrikethru(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FontUnderline(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FontUnderline(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Rows(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Rows(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Cols(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Cols(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Version(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FormatString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FormatString(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FixedRows(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FixedRows(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FixedCols(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FixedCols(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TopRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TopRow(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_LeftCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_LeftCol(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowSel(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ColSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ColSel(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Row(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Row(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Col(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Col(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Text(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BackColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BackColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ForeColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ForeColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BackColorFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BackColorFixed(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ForeColorFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ForeColorFixed(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BackColorSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BackColorSel(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ForeColorSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ForeColorSel(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_BackColorBkg(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_BackColorBkg(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_WordWrap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_WordWrap(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TextStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TextStyle(TextStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TextStyleFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TextStyleFixed(TextStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ScrollTrack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ScrollTrack(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FocusRect(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FocusRect(FocusRectSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_HighLight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_HighLight(ShowSelSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Redraw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Redraw(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ScrollBars(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ScrollBars(ScrollBarsSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MouseRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MouseCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellLeft(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellTop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CellHeight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RowHeightMin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_RowHeightMin(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FillStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_FillStyle(FillStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GridLines(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GridLines(GridStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GridLinesFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_GridLinesFixed(GridStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GridColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Struct VSFlex6.TextStyleSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.TextStyleSettings flexTextFlat = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.TextStyleSettings flexTextRaised = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.TextStyleSettings flexTextInset = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.TextStyleSettings flexTextRaisedLight = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.TextStyleSettings flexTextInsetLight = 4 : Public, Static, Literal, HasDefault
+Struct VSFlex6.FocusRectSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.FocusRectSettings flexFocusNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.FocusRectSettings flexFocusLight = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.FocusRectSettings flexFocusHeavy = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.FocusRectSettings flexFocusSolid = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.FocusRectSettings flexFocusRaised = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.FocusRectSettings flexFocusInset = 5 : Public, Static, Literal, HasDefault
+Struct VSFlex6.ShowSelSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ShowSelSettings flexHighlightNever = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ShowSelSettings flexHighlightAlways = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ShowSelSettings flexHighlightWithFocus = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.ScrollBarsSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ScrollBarsSettings flexScrollBarNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ScrollBarsSettings flexScrollBarHorizontal = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ScrollBarsSettings flexScrollBarVertical = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.ScrollBarsSettings flexScrollBarBoth = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.FillStyleSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.FillStyleSettings flexFillSingle = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.FillStyleSettings flexFillRepeat = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.GridStyleSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.GridStyleSettings flexGridNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridFlat = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridInset = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridRaised = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridFlatHorz = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridInsetHorz = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridRaisedHorz = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridSkipHorz = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridFlatVert = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridInsetVert = 9 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridRaisedVert = 10 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridSkipVert = 11 : Public, Static, Literal, HasDefault
+    VSFlex6.GridStyleSettings flexGridExplorer = 12 : Public, Static, Literal, HasDefault
+Struct VSFlex6.AlignmentSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.AlignmentSettings flexAlignLeftTop = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignLeftCenter = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignLeftBottom = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignCenterTop = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignCenterCenter = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignCenterBottom = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignRightTop = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignRightCenter = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignRightBottom = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.AlignmentSettings flexAlignGeneral = 9 : Public, Static, Literal, HasDefault
+Struct VSFlex6.PictureAlignmentSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.PictureAlignmentSettings flexPicAlignLeftTop = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignLeftCenter = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignLeftBottom = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignCenterTop = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignCenterCenter = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignCenterBottom = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignRightTop = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignRightCenter = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignRightBottom = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignStretch = 9 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureAlignmentSettings flexPicAlignTile = 10 : Public, Static, Literal, HasDefault
+Struct VSFlex6.SortSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.SortSettings flexSortNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortGenericAscending = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortGenericDescending = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortNumericAscending = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortNumericDescending = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortStringNoCaseAscending = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortStringNoCaseDescending = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortStringAscending = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortStringDescending = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortCustom = 9 : Public, Static, Literal, HasDefault
+    VSFlex6.SortSettings flexSortUseColSort = 10 : Public, Static, Literal, HasDefault
+Struct VSFlex6.SelModeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.SelModeSettings flexSelectionFree = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.SelModeSettings flexSelectionByRow = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.SelModeSettings flexSelectionByColumn = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.SelModeSettings flexSelectionListBox = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.MergeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.MergeSettings flexMergeNever = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeSettings flexMergeFree = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeSettings flexMergeRestrictRows = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeSettings flexMergeRestrictColumns = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeSettings flexMergeRestrictAll = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeSettings flexMergeFixedOnly = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeSettings flexMergeSpill = 6 : Public, Static, Literal, HasDefault
+Struct VSFlex6.PictureTypeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.PictureTypeSettings flexPictureColor = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.PictureTypeSettings flexPictureMonochrome = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.AllowUserResizeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.AllowUserResizeSettings flexResizeNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.AllowUserResizeSettings flexResizeColumns = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.AllowUserResizeSettings flexResizeRows = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.AllowUserResizeSettings flexResizeBoth = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.MousePointerSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.MousePointerSettings flexDefault = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexArrow = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexCross = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexIBeam = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexIcon = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexSize = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexSizeNESW = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexSizeNS = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexSizeNWSE = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexSizeEW = 9 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexUpArrow = 10 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexHourglass = 11 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexNoDrop = 12 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexArrowHourGlass = 13 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexArrowQuestion = 14 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexSizeAll = 15 : Public, Static, Literal, HasDefault
+    VSFlex6.MousePointerSettings flexCustom = 99 : Public, Static, Literal, HasDefault
+Struct VSFlex6.SubtotalPositionSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.SubtotalPositionSettings flexSTBelow = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalPositionSettings flexSTAbove = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.BorderStyleSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.BorderStyleSettings flexBorderNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.BorderStyleSettings flexBorderFlat = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.AppearanceSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.AppearanceSettings flexFlat = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.AppearanceSettings flex3D = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.OutlineBarSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.OutlineBarSettings flexOutlineBarNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.OutlineBarSettings flexOutlineBarComplete = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.OutlineBarSettings flexOutlineBarSimple = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.OutlineBarSettings flexOutlineBarSymbols = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.AutoSizeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.AutoSizeSettings flexAutoSizeColWidth = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.AutoSizeSettings flexAutoSizeRowHeight = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.OwnerDrawSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.OwnerDrawSettings flexODNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.OwnerDrawSettings flexODOver = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.OwnerDrawSettings flexODContent = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.OwnerDrawSettings flexODComplete = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.OwnerDrawSettings flexODOverFixed = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.OwnerDrawSettings flexODContentFixed = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.OwnerDrawSettings flexODCompleteFixed = 6 : Public, Static, Literal, HasDefault
+Struct VSFlex6.DataModeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.DataModeSettings flexDMFree = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.DataModeSettings flexDMBound = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.OLEDragModeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.OLEDragModeSettings flexOLEDragManual = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.OLEDragModeSettings flexOLEDragAutomatic = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.OLEDropModeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.OLEDropModeSettings flexOLEDropNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.OLEDropModeSettings flexOLEDropManual = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.OLEDropModeSettings flexOLEDropAutomatic = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.TabBehaviorSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.TabBehaviorSettings flexTabControls = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.TabBehaviorSettings flexTabCells = 1 : Public, Static, Literal, HasDefault
+Struct VSFlex6.CellCheckedSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.CellCheckedSettings flexNoCheckbox = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.CellCheckedSettings flexChecked = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.CellCheckedSettings flexUnchecked = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.MergeCompareSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.MergeCompareSettings flexMCExact = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeCompareSettings flexMCNoCase = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.MergeCompareSettings flexMCTrimNoCase = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.EllipsisSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.EllipsisSettings flexNoEllipsis = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.EllipsisSettings flexEllipsisEnd = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.EllipsisSettings flexEllipsisPath = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.AutoSearchSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.AutoSearchSettings flexSearchNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.AutoSearchSettings flexSearchFromTop = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.AutoSearchSettings flexSearchFromCursor = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.ExplorerBarSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ExplorerBarSettings flexExNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ExplorerBarSettings flexExSort = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ExplorerBarSettings flexExMove = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.ExplorerBarSettings flexExSortAndMove = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.SubtotalSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.SubtotalSettings flexSTNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTClear = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTSum = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTPercent = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTCount = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTAverage = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTMax = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTMin = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTStd = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.SubtotalSettings flexSTVar = 9 : Public, Static, Literal, HasDefault
+Struct VSFlex6.CollapsedSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.CollapsedSettings flexOutlineExpanded = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.CollapsedSettings flexOutlineSubtotals = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.CollapsedSettings flexOutlineCollapsed = 2 : Public, Static, Literal, HasDefault
+Struct VSFlex6.SaveLoadSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.SaveLoadSettings flexFileAll = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.SaveLoadSettings flexFileData = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.SaveLoadSettings flexFileFormat = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.SaveLoadSettings flexFileCommaText = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.SaveLoadSettings flexFileTabText = 4 : Public, Static, Literal, HasDefault
+Struct VSFlex6.ArchiveSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ArchiveSettings arcAdd = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveSettings arcStore = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveSettings arcExtract = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveSettings arcDelete = 3 : Public, Static, Literal, HasDefault
+Struct VSFlex6.ArchiveInfoSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.ArchiveInfoSettings arcFileCount = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveInfoSettings ArcFileName = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveInfoSettings arcFileSize = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveInfoSettings arcFileCompressedSize = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.ArchiveInfoSettings arcFileDate = 4 : Public, Static, Literal, HasDefault
+Struct VSFlex6.DataTypeSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.DataTypeSettings flexDTEmpty = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTShort = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTLong = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTSingle = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTDouble = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTCurrency = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTDate = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTString = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTBoolean = 11 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTLong8 = 20 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTStringC = 30 : Public, Static, Literal, HasDefault
+    VSFlex6.DataTypeSettings flexDTStringW = 31 : Public, Static, Literal, HasDefault
+Struct VSFlex6.CellPropertySettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.CellPropertySettings flexcpText = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpTextStyle = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpAlignment = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpPicture = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpPictureAlignment = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpChecked = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpBackColor = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpForeColor = 7 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFloodPercent = 8 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFloodColor = 9 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFont = 10 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontName = 11 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontSize = 12 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontBold = 13 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontItalic = 14 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontUnderline = 15 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontStrikethru = 16 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpFontWidth = 17 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpValue = 18 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpTextDisplay = 19 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpData = 20 : Public, Static, Literal, HasDefault
+    VSFlex6.CellPropertySettings flexcpCustomFormat = 21 : Public, Static, Literal, HasDefault
+Struct VSFlex6.RowStatusSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.RowStatusSettings flexrsNew = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.RowStatusSettings flexrsUpdated = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.RowStatusSettings flexrsModified = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.RowStatusSettings flexrsDeleted = 3 : Public, Static, Literal, HasDefault
+Interface VSFlex6._IvsFlexGridEvents: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    SelChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RowColChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnterCell(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LeaveCell(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Scroll(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Compare(Int32, Int32, Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AfterUserResize(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Collapsed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AfterEdit(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeEdit(Int32, Int32, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeyPressEdit(Int32, Int32, Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ValidateEdit(Int32, Int32, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeDataRefresh(Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AfterDataRefresh(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DrawCell(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLEStartDrag(vsDataObject&(HasFieldMarshal), Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLEGiveFeedback(Int32&, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLESetData(vsDataObject&(HasFieldMarshal), Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLECompleteDrag(Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLEDragOver(vsDataObject&(HasFieldMarshal), Int32&, Int16, Int16, Single, Single, Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OLEDragDrop(vsDataObject&(HasFieldMarshal), Int32&, Int16, Int16, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeyDownEdit(Int32, Int32, Int16&, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeyUpEdit(Int32, Int32, Int16&, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforePageBreak(Int32, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetHeaderRow(Int32, Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Error(Int32, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeUserResize(Int32, Int32, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeSort(Int32, Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AfterSort(Int32, Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeMoveColumn(Int32, Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AfterMoveColumn(Int32, Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CellButtonClick(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeMouseDown(Int16, Int16, Single, Single, Boolean&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ChangeEdit(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeforeScrollTip(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Click(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DblClick(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeyDown(Int16&, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeyPress(Int16&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeyUp(Int16&, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    MouseDown(Int16, Int16, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    MouseMove(Int16, Int16, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    MouseUp(Int16, Int16, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class VSFlex6.vsDataObjectClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    VSFlex6.IvsDataObject
+    VSFlex6.vsDataObject
+  Properties:
+    Int16 FileCount 'get ' : 
+    System.Object GetData [Int16] 'get ' : 
+    Boolean GetFormat [Int16] 'get ' : 
+    System.String Files [Int16] 'get ' : 
+  Methods:
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_FileCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GetData(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GetFormat(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Files(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SetData(Object(HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface VSFlex6.vsDataObject: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    VSFlex6.IvsDataObject
+Interface VSFlex6.IvsDataObject: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    Int16 FileCount 'get ' : 
+    System.Object GetData [Int16] 'get ' : 
+    Boolean GetFormat [Int16] 'get ' : 
+    System.String Files [Int16] 'get ' : 
+  Methods:
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_FileCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GetData(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_GetFormat(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Files(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    SetData(Object(HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSFlex6.IvsFlexString: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    System.String Text 'get set' : 
+    Int16 Version 'get set' : 
+    System.String Pattern 'get set' : 
+    System.String Replace 'get set' : 
+    Int32 MatchCount 'get set' : 
+    Int32 MatchIndex 'get set' : 
+    Int32 MatchStart [System.Object] 'get ' : 
+    Int32 MatchLength [System.Object] 'get ' : 
+    System.String MatchString [System.Object] 'get set' : 
+    Int32 TagCount 'get set' : 
+    Int32 TagIndex 'get set' : 
+    Int32 TagStart [System.Object] 'get ' : 
+    Int32 TagLength [System.Object] 'get ' : 
+    System.String TagString [System.Object] 'get set' : 
+    VSFlex6.StringErrorSettings Error 'get ' : 
+    System.String Soundex 'get ' : 
+    Boolean CaseSensitive 'get set' : 
+  Methods:
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Text(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Version(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Pattern(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Pattern(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Replace(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Replace(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MatchCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MatchCount(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MatchIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MatchIndex(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MatchStart(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MatchLength(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MatchString(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MatchString(Object(Optional, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TagCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TagCount(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TagIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TagIndex(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TagStart(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TagLength(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TagString(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TagString(Object(Optional, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Error(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Soundex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CaseSensitive(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CaseSensitive(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    About(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct VSFlex6.StringErrorSettings: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    VSFlex6.StringErrorSettings flexErrNone = 0 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrOutOfMemory = 1 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrSquareB = 2 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrCurlyB = 3 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrBadPattern = 4 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrBadTagIndex = 5 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrNoMatch = 6 : Public, Static, Literal, HasDefault
+    VSFlex6.StringErrorSettings flexErrInvalidMatchIndex = 7 : Public, Static, Literal, HasDefault
+Class VSFlex6.vsFlexGridClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    VSFlex6.IvsFlexGrid
+    VSFlex6.vsFlexGrid
+    VSFlex6._IvsFlexGridEvents_Event
+  Properties:
+    Int32 _ConvInfo 'get set' : 
+    System.String FontName 'get set' : 
+    Single FontSize 'get set' : 
+    Boolean FontBold 'get set' : 
+    Boolean FontItalic 'get set' : 
+    Boolean FontStrikethru 'get set' : 
+    Boolean FontUnderline 'get set' : 
+    Int32 Rows 'get set' : 
+    Int32 Cols 'get set' : 
+    Int16 Version 'get set' : 
+    System.String FormatString 'get set' : 
+    Int32 FixedRows 'get set' : 
+    Int32 FixedCols 'get set' : 
+    Int32 TopRow 'get set' : 
+    Int32 LeftCol 'get set' : 
+    Int32 RowSel 'get set' : 
+    Int32 ColSel 'get set' : 
+    Int32 Row  'get set' : 
+    Int32 Col  'get set' : 
+    System.String Text 'get set' : 
+    UInt32 BackColor 'get set' : 
+    UInt32 ForeColor 'get set' : 
+    UInt32 BackColorFixed 'get set' : 
+    UInt32 ForeColorFixed 'get set' : 
+    UInt32 BackColorSel 'get set' : 
+    UInt32 ForeColorSel 'get set' : 
+    UInt32 BackColorBkg 'get set' : 
+    Boolean WordWrap 'get set' : 
+    VSFlex6.TextStyleSettings TextStyle 'get set' : 
+    VSFlex6.TextStyleSettings TextStyleFixed 'get set' : 
+    Boolean ScrollTrack 'get set' : 
+    VSFlex6.FocusRectSettings FocusRect 'get set' : 
+    VSFlex6.ShowSelSettings HighLight 'get set' : 
+    Boolean Redraw 'get set' : 
+    VSFlex6.ScrollBarsSettings ScrollBars 'get set' : 
+    Int32 MouseRow 'get ' : 
+    Int32 MouseCol 'get ' : 
+    Int32 CellLeft 'get ' : 
+    Int32 CellTop 'get ' : 
+    Int32 CellWidth 'get ' : 
+    Int32 CellHeight 'get ' : 
+    Int32 RowHeightMin 'get set' : 
+    VSFlex6.FillStyleSettings FillStyle 'get set' : 
+    VSFlex6.GridStyleSettings GridLines 'get set' : 
+    VSFlex6.GridStyleSettings GridLinesFixed 'get set' : 
+    UInt32 GridColor 'get set' : 
+    UInt32 GridColorFixed 'get set' : 
+    UInt32 CellBackColor 'get set' : 
+    UInt32 CellForeColor 'get set' : 
+    VSFlex6.AlignmentSettings CellAlignment 'get set' : 
+    VSFlex6.TextStyleSettings CellTextStyle 'get set' : 
+    stdole.IPictureDisp CellPicture 'get set' : 
+    VSFlex6.PictureAlignmentSettings CellPictureAlignment 'get set' : 
+    System.String CellFontName 'get set' : 
+    Single CellFontSize 'get set' : 
+    Boolean CellFontBold 'get set' : 
+    Boolean CellFontItalic 'get set' : 
+    Single CellFontWidth 'get set' : 
+    Boolean CellFontUnderline 'get set' : 
+    Boolean CellFontStrikethru 'get set' : 
+    Single FontWidth 'get set' : 
+    System.String Clip 'get set' : 
+    VSFlex6.SortSettings Sort 'set' : 
+    VSFlex6.SelModeSettings SelectionMode 'get set' : 
+    VSFlex6.MergeSettings MergeCells 'get set' : 
+    stdole.IPictureDisp Picture 'get ' : 
+    VSFlex6.PictureTypeSettings PictureType 'get set' : 
+    Boolean AllowBigSelection 'get set' : 
+    VSFlex6.AllowUserResizeSettings AllowUserResizing 'get set' : 
+    VSFlex6.MousePointerSettings MousePointer 'get set' : 
+    stdole.IPictureDisp MouseIcon 'get set' : 
+    System.String DataMember 'get set' : 
+    MSDATASRC.DataSource DataSource 'get set' : 
+    Boolean VirtualData 'get set' : 
+    Boolean Editable 'get set' : 
+    System.String ComboList 'get set' : 
+    Double Value 'get ' : 
+    UInt32 FloodColor 'get set' : 
+    Int16 CellFloodPercent 'get set' : 
+    UInt32 CellFloodColor 'get set' : 
+    VSFlex6.SubtotalPositionSettings SubtotalPosition 'get set' : 
+    VSFlex6.BorderStyleSettings BorderStyle 'get set' : 
+    stdole.IFontDisp Font 'get set' : 
+    Boolean Enabled 'get set' : 
+    VSFlex6.AppearanceSettings Appearance 'get set' : 
+    VSFlex6.OutlineBarSettings OutlineBar 'get set' : 
+    UInt32 TreeColor 'get set' : 
+    Int16 GridLineWidth 'get set' : 
+    Boolean AutoResize 'get set' : 
+    Int32 BottomRow 'get ' : 
+    Int32 RightCol 'get ' : 
+    Boolean ExtendLastCol 'get set' : 
+    Int32 ClientWidth 'get ' : 
+    Int32 ClientHeight 'get ' : 
+    System.String EditText 'get set' : 
+    Int32 hWnd 'get ' : 
+    VSFlex6.AutoSizeSettings AutoSizeMode 'get set' : 
+    Boolean RightToLeft 'get set' : 
+    Boolean MultiTotals 'get set' : 
+    UInt32 BackColorAlternate 'get set' : 
+    VSFlex6.OwnerDrawSettings OwnerDraw 'get set' : 
+    VSFlex6.DataModeSettings DataMode 'get set' : 
+    VSFlex6.OLEDragModeSettings OLEDragMode 'get set' : 
+    VSFlex6.OLEDropModeSettings OLEDropMode 'get set' : 
+    VSFlex6.TabBehaviorSettings TabBehavior 'get set' : 
+    UInt32 SheetBorder 'get set' : 
+    Boolean AllowSelection 'get set' : 
+    Boolean PicturesOver 'get set' : 
+    VSFlex6.CellCheckedSettings CellChecked 'get set' : 
+    VSFlex6.MergeCompareSettings MergeCompare 'get set' : 
+    VSFlex6.EllipsisSettings Ellipsis 'get set' : 
+    Int32 OutlineCol 'get set' : 
+    Int32 RowHeightMax 'get set' : 
+    VSFlex6.AutoSearchSettings AutoSearch 'get set' : 
+    VSFlex6.ExplorerBarSettings ExplorerBar 'get set' : 
+    System.String EditMask 'get set' : 
+    Int32 EditSelStart 'get set' : 
+    Int32 EditSelLength 'get set' : 
+    System.String EditSelText 'get set' : 
+    Int32 EditMaxLength 'get set' : 
+    Int32 ComboIndex 'get set' : 
+    Int32 ComboCount 'get ' : 
+    VSFlex6.AlignmentSettings ColAlignment [Int32] 'get set' : 
+    Int32 ColWidth [Int32] 'get set' : 
+    Int32 RowHeight [Int32] 'get set' : 
+    Boolean MergeRow [Int32] 'get set' : 
+    Boolean MergeCol [Int32] 'get set' : 
+    Int32 RowPosition [Int32] 'set' : 
+    Int32 ColPosition [Int32] 'set' : 
+    System.Object RowData [Int32] 'get set' : 
+    System.Object ColData [Int32] 'get set' : 
+    System.String TextMatrix [Int32, Int32] 'get set' : 
+    Double ValueMatrix [Int32, Int32] 'get ' : 
+    Boolean IsSubtotal [Int32] 'get set' : 
+    VSFlex6.AlignmentSettings FixedAlignment [Int32] 'get set' : 
+    Boolean RowIsVisible [Int32] 'get ' : 
+    Boolean ColIsVisible [Int32] 'get ' : 
+    Int32 RowPos [Int32] 'get ' : 
+    Int32 ColPos [Int32] 'get ' : 
+    Boolean IsSelected [Int32] 'get set' : 
+    System.String TextArray [Int32] 'get set' : 
+    VSFlex6.CollapsedSettings IsCollapsed [Int32] 'get set' : 
+    System.Object ArchiveInfo [System.String, VSFlex6.ArchiveInfoSettings, System.Object] 'get ' : 
+    VSFlex6.SortSettings ColSort [Int32] 'get set' : 
+    System.String ColFormat [Int32] 'get set' : 
+    VSFlex6.DataTypeSettings ColDataType [Int32] 'get set' : 
+    System.Object Cell [VSFlex6.CellPropertySettings, System.Object, System.Object, System.Object, System.Object] 'get set' : 
+    VSFlex6.RowStatusSettings RowStatus [Int32] 'get set' : 
+    Int32 FindRow [System.Object, System.Object, System.Object] 'get ' : 
+    System.String ComboItem [System.Object] 'get ' : 
+    Int32 ComboData [System.Object] 'get ' : 
+    System.String ColEditMask [Int32] 'get set' : 
+    System.String ColComboList [Int32] 'get set' : 
+    Int16 RowOutlineLevel [Int32] 'get set' : 
+    Int32 SelectedRows 'get ' : 
+    Int32 SelectedRow [Int32] 'get ' : 
+    Boolean ScrollTips 'get set' : 
+    System.String ScrollTipText 'get set' : 
+    Boolean RowHidden [Int32] 'get set' : 
+    Boolean ColHidden [Int32] 'get set' : 
+    Int32 ColWidthMin 'get set' : 
+    Int32 ColWidthMax 'get set' : 
+    Boolean ShowComboButton 'get set' : 
+  Events:
+    VSFlex6._IvsFlexGridEvents_SelChangeEventHandler SelChange: 
+    VSFlex6._IvsFlexGridEvents_RowColChangeEventHandler RowColChange: 
+    VSFlex6._IvsFlexGridEvents_EnterCellEventHandler EnterCell: 
+    VSFlex6._IvsFlexGridEvents_LeaveCellEventHandler LeaveCell: 
+    VSFlex6._IvsFlexGridEvents_ScrollEventHandler Scroll: 
+    VSFlex6._IvsFlexGridEvents_CompareEventHandler Compare: 
+    VSFlex6._IvsFlexGridEvents_AfterUserResizeEventHandler AfterUserResize: 
+    VSFlex6._IvsFlexGridEvents_CollapsedEventHandler Collapsed: 
+    VSFlex6._IvsFlexGridEvents_AfterEditEventHandler AfterEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforeEditEventHandler BeforeEdit: 
+    VSFlex6._IvsFlexGridEvents_KeyPressEditEventHandler KeyPressEdit: 
+    VSFlex6._IvsFlexGridEvents_ValidateEditEventHandler ValidateEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforeDataRefreshEventHandler BeforeDataRefresh: 
+    VSFlex6._IvsFlexGridEvents_AfterDataRefreshEventHandler AfterDataRefresh: 
+    VSFlex6._IvsFlexGridEvents_DrawCellEventHandler DrawCell: 
+    VSFlex6._IvsFlexGridEvents_OLEStartDragEventHandler OLEStartDrag: 
+    VSFlex6._IvsFlexGridEvents_OLEGiveFeedbackEventHandler OLEGiveFeedback: 
+    VSFlex6._IvsFlexGridEvents_OLESetDataEventHandler OLESetData: 
+    VSFlex6._IvsFlexGridEvents_OLECompleteDragEventHandler OLECompleteDrag: 
+    VSFlex6._IvsFlexGridEvents_OLEDragOverEventHandler OLEDragOver: 
+    VSFlex6._IvsFlexGridEvents_OLEDragDropEventHandler OLEDragDrop: 
+    VSFlex6._IvsFlexGridEvents_KeyDownEditEventHandler KeyDownEdit: 
+    VSFlex6._IvsFlexGridEvents_KeyUpEditEventHandler KeyUpEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforePageBreakEventHandler BeforePageBreak: 
+    VSFlex6._IvsFlexGridEvents_GetHeaderRowEventHandler GetHeaderRow: 
+    VSFlex6._IvsFlexGridEvents_ErrorEventHandler Error: 
+    VSFlex6._IvsFlexGridEvents_BeforeUserResizeEventHandler BeforeUserResize: 
+    VSFlex6._IvsFlexGridEvents_BeforeSortEventHandler BeforeSort: 
+    VSFlex6._IvsFlexGridEvents_AfterSortEventHandler AfterSort: 
+    VSFlex6._IvsFlexGridEvents_BeforeMoveColumnEventHandler BeforeMoveColumn: 
+    VSFlex6._IvsFlexGridEvents_AfterMoveColumnEventHandler AfterMoveColumn: 
+    VSFlex6._IvsFlexGridEvents_CellButtonClickEventHandler CellButtonClick: 
+    VSFlex6._IvsFlexGridEvents_BeforeMouseDownEventHandler BeforeMouseDown: 
+    VSFlex6._IvsFlexGridEvents_ChangeEditEventHandler ChangeEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforeScrollTipEventHandler BeforeScrollTip: 
+    VSFlex6._IvsFlexGridEvents_ClickEventHandler Click: 
+    VSFlex6._IvsFlexGridEvents_DblClickEventHandler DblClick: 
+    VSFlex6._IvsFlexGridEvents_KeyDownEventHandler KeyDown: 
+    VSFlex6._IvsFlexGridEvents_KeyPressEventHandler KeyPress: 
+    VSFlex6._IvsFlexGridEvents_KeyUpEventHandler KeyUp: 
+    VSFlex6._IvsFlexGridEvents_MouseDownEventHandler MouseDown: 
+    VSFlex6._IvsFlexGridEvents_MouseMoveEventHandler MouseMove: 
+    VSFlex6._IvsFlexGridEvents_MouseUpEventHandler MouseUp: 
+  Methods:
+    add_OLECompleteDrag(_IvsFlexGridEvents_OLECompleteDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_OLECompleteDrag(_IvsFlexGridEvents_OLECompleteDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_OLEDragOver(_IvsFlexGridEvents_OLEDragOverEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_OLEDragOver(_IvsFlexGridEvents_OLEDragOverEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_OLEDragDrop(_IvsFlexGridEvents_OLEDragDropEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_OLEDragDrop(_IvsFlexGridEvents_OLEDragDropEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_KeyDownEdit(_IvsFlexGridEvents_KeyDownEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_KeyDownEdit(_IvsFlexGridEvents_KeyDownEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_KeyUpEdit(_IvsFlexGridEvents_KeyUpEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_KeyUpEdit(_IvsFlexGridEvents_KeyUpEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforePageBreak(_IvsFlexGridEvents_BeforePageBreakEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforePageBreak(_IvsFlexGridEvents_BeforePageBreakEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_GetHeaderRow(_IvsFlexGridEvents_GetHeaderRowEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_GetHeaderRow(_IvsFlexGridEvents_GetHeaderRowEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_Error(_IvsFlexGridEvents_ErrorEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_Error(_IvsFlexGridEvents_ErrorEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeUserResize(_IvsFlexGridEvents_BeforeUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeUserResize(_IvsFlexGridEvents_BeforeUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeSort(_IvsFlexGridEvents_BeforeSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeSort(_IvsFlexGridEvents_BeforeSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_AfterSort(_IvsFlexGridEvents_AfterSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_AfterSort(_IvsFlexGridEvents_AfterSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeMoveColumn(_IvsFlexGridEvents_BeforeMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeMoveColumn(_IvsFlexGridEvents_BeforeMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_AfterMoveColumn(_IvsFlexGridEvents_AfterMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_AfterMoveColumn(_IvsFlexGridEvents_AfterMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_CellButtonClick(_IvsFlexGridEvents_CellButtonClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_CellButtonClick(_IvsFlexGridEvents_CellButtonClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeMouseDown(_IvsFlexGridEvents_BeforeMouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeMouseDown(_IvsFlexGridEvents_BeforeMouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_ChangeEdit(_IvsFlexGridEvents_ChangeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_ChangeEdit(_IvsFlexGridEvents_ChangeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeScrollTip(_IvsFlexGridEvents_BeforeScrollTipEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeScrollTip(_IvsFlexGridEvents_BeforeScrollTipEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_Click(_IvsFlexGridEvents_ClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_Click(_IvsFlexGridEvents_ClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_DblClick(_IvsFlexGridEvents_DblClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_DblClick(_IvsFlexGridEvents_DblClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_KeyDown(_IvsFlexGridEvents_KeyDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_KeyDown(_IvsFlexGridEvents_KeyDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_KeyPress(_IvsFlexGridEvents_KeyPressEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_KeyPress(_IvsFlexGridEvents_KeyPressEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_KeyUp(_IvsFlexGridEvents_KeyUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_KeyUp(_IvsFlexGridEvents_KeyUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_MouseDown(_IvsFlexGridEvents_MouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_MouseDown(_IvsFlexGridEvents_MouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_MouseMove(_IvsFlexGridEvents_MouseMoveEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_MouseMove(_IvsFlexGridEvents_MouseMoveEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_MouseUp(_IvsFlexGridEvents_MouseUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_MouseUp(_IvsFlexGridEvents_MouseUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    set_ScrollTips(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ScrollTipText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ScrollTipText(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowHidden(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowHidden(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColHidden(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColHidden(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColWidthMin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColWidthMin(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColWidthMax(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColWidthMax(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetMergedRange(Int32, Int32, Int32&, Int32&, Int32&, Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_ShowComboButton(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ShowComboButton(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    About(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_SelChange(_IvsFlexGridEvents_SelChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_SelChange(_IvsFlexGridEvents_SelChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_RowColChange(_IvsFlexGridEvents_RowColChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_RowColChange(_IvsFlexGridEvents_RowColChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_EnterCell(_IvsFlexGridEvents_EnterCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_EnterCell(_IvsFlexGridEvents_EnterCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_LeaveCell(_IvsFlexGridEvents_LeaveCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_LeaveCell(_IvsFlexGridEvents_LeaveCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_Scroll(_IvsFlexGridEvents_ScrollEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_Scroll(_IvsFlexGridEvents_ScrollEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_Compare(_IvsFlexGridEvents_CompareEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_Compare(_IvsFlexGridEvents_CompareEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_AfterUserResize(_IvsFlexGridEvents_AfterUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_AfterUserResize(_IvsFlexGridEvents_AfterUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_Collapsed(_IvsFlexGridEvents_CollapsedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_Collapsed(_IvsFlexGridEvents_CollapsedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_AfterEdit(_IvsFlexGridEvents_AfterEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_AfterEdit(_IvsFlexGridEvents_AfterEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeEdit(_IvsFlexGridEvents_BeforeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeEdit(_IvsFlexGridEvents_BeforeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_KeyPressEdit(_IvsFlexGridEvents_KeyPressEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_KeyPressEdit(_IvsFlexGridEvents_KeyPressEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_ValidateEdit(_IvsFlexGridEvents_ValidateEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_ValidateEdit(_IvsFlexGridEvents_ValidateEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_BeforeDataRefresh(_IvsFlexGridEvents_BeforeDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_BeforeDataRefresh(_IvsFlexGridEvents_BeforeDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_AfterDataRefresh(_IvsFlexGridEvents_AfterDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_AfterDataRefresh(_IvsFlexGridEvents_AfterDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_DrawCell(_IvsFlexGridEvents_DrawCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_DrawCell(_IvsFlexGridEvents_DrawCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_OLEStartDrag(_IvsFlexGridEvents_OLEStartDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_OLEStartDrag(_IvsFlexGridEvents_OLEStartDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_OLEGiveFeedback(_IvsFlexGridEvents_OLEGiveFeedbackEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_OLEGiveFeedback(_IvsFlexGridEvents_OLEGiveFeedbackEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    add_OLESetData(_IvsFlexGridEvents_OLESetDataEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    remove_OLESetData(_IvsFlexGridEvents_OLESetDataEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_ValueMatrix(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsSubtotal(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsSubtotal(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Subtotal(SubtotalSettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Refresh(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Outline(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_FixedAlignment(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FixedAlignment(Int32, AlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowIsVisible(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColIsVisible(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowPos(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColPos(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsSelected(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsSelected(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TextArray(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TextArray(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsCollapsed(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsCollapsed(Int32, CollapsedSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Select(Int32, Int32, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AutoSize(Int32, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DataRefresh(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CellBorder(UInt32, Int16, Int16, Int16, Int16, Int16, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OLEDrag(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SaveGrid(String(HasFieldMarshal), SaveLoadSettings, Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LoadGrid(String(HasFieldMarshal), SaveLoadSettings, Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Archive(String(HasFieldMarshal), String(HasFieldMarshal), ArchiveSettings): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_ArchiveInfo(String(HasFieldMarshal), ArchiveInfoSettings, Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColSort(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColSort(Int32, SortSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColFormat(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColFormat(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColDataType(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColDataType(Int32, DataTypeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Cell(CellPropertySettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    let_Cell(CellPropertySettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Cell(CellPropertySettings, Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowStatus(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowStatus(Int32, RowStatusSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FindRow(Object(HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ComboItem(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ComboData(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    BindToArray(Object(HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_ColEditMask(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColEditMask(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColComboList(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColComboList(Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowOutlineLevel(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowOutlineLevel(Int32, Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SelectedRows(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SelectedRow(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ScrollTips(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PicturesOver(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_PicturesOver(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellChecked(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellChecked(CellCheckedSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MergeCompare(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MergeCompare(MergeCompareSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Ellipsis(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Ellipsis(EllipsisSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OutlineCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OutlineCol(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowHeightMax(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowHeightMax(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AutoSearch(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AutoSearch(AutoSearchSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ExplorerBar(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ExplorerBar(ExplorerBarSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EditMask(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EditMask(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EditSelStart(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EditSelStart(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EditSelLength(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EditSelLength(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EditSelText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EditSelText(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EditMaxLength(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EditMaxLength(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ComboIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ComboIndex(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ComboCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColAlignment(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColAlignment(Int32, AlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColWidth(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColWidth(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowHeight(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowHeight(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MergeRow(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MergeRow(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MergeCol(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MergeCol(Int32, Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowPosition(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColPosition(Int32, Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowData(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowData(Int32, Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColData(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColData(Int32, Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddItem(String(HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveItem(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_TextMatrix(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TextMatrix(Int32, Int32, String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Clear(Object(Optional, HasFieldMarshal), Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditCell(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    set_CellFloodColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SubtotalPosition(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SubtotalPosition(SubtotalPositionSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BorderStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BorderStyle(BorderStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Font(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    let_Font(IFontDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Font(IFontDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Enabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Enabled(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Appearance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Appearance(AppearanceSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OutlineBar(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OutlineBar(OutlineBarSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TreeColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TreeColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GridLineWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GridLineWidth(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AutoResize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AutoResize(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BottomRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RightCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ExtendLastCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ExtendLastCol(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ClientWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ClientHeight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EditText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EditText(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_hWnd(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AutoSizeMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AutoSizeMode(AutoSizeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RightToLeft(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RightToLeft(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MultiTotals(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MultiTotals(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackColorAlternate(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BackColorAlternate(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OwnerDraw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OwnerDraw(OwnerDrawSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DataMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DataMode(DataModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OLEDragMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OLEDragMode(OLEDragModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OLEDropMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OLEDropMode(OLEDropModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TabBehavior(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TabBehavior(TabBehaviorSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SheetBorder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SheetBorder(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowSelection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowSelection(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontName(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontSize(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontBold(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontBold(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontItalic(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontItalic(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontWidth(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontUnderline(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontUnderline(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFontStrikethru(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFontStrikethru(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontWidth(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Clip(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Clip(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Sort(SortSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SelectionMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SelectionMode(SelModeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MergeCells(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MergeCells(MergeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Picture(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PictureType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_PictureType(PictureTypeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowBigSelection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowBigSelection(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowUserResizing(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowUserResizing(AllowUserResizeSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MousePointer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MousePointer(MousePointerSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MouseIcon(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    let_MouseIcon(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MouseIcon(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DataMember(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DataMember(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DataSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DataSource(DataSource(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_VirtualData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_VirtualData(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Editable(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Editable(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ComboList(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ComboList(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Value(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FloodColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FloodColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFloodPercent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellFloodPercent(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellFloodColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ForeColorSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ForeColorSel(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackColorBkg(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BackColorBkg(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WordWrap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_WordWrap(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TextStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TextStyle(TextStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TextStyleFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TextStyleFixed(TextStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ScrollTrack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ScrollTrack(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FocusRect(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FocusRect(FocusRectSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_HighLight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_HighLight(ShowSelSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Redraw(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Redraw(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ScrollBars(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ScrollBars(ScrollBarsSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MouseRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MouseCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellLeft(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellTop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellWidth(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellHeight(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowHeightMin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowHeightMin(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FillStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FillStyle(FillStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GridLines(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GridLines(GridStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GridLinesFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GridLinesFixed(GridStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GridColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GridColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GridColorFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GridColorFixed(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellBackColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellBackColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellForeColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellForeColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellAlignment(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellAlignment(AlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellTextStyle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellTextStyle(TextStyleSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellPicture(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    let_CellPicture(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellPicture(IPictureDisp(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CellPictureAlignment(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CellPictureAlignment(PictureAlignmentSettings(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get__ConvInfo(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set__ConvInfo(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontName(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontSize(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontBold(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontBold(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontItalic(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontItalic(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontStrikethru(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontStrikethru(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FontUnderline(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FontUnderline(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Rows(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Rows(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Cols(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Cols(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Version(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FormatString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FormatString(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FixedRows(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FixedRows(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FixedCols(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FixedCols(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TopRow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TopRow(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LeftCol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_LeftCol(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RowSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_RowSel(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ColSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ColSel(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Row(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Row(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Col(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Col(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Text(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BackColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ForeColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ForeColor(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackColorFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BackColorFixed(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ForeColorFixed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ForeColorFixed(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackColorSel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BackColorSel(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Interface VSFlex6._IvsFlexGridEvents_Event: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Events:
+    VSFlex6._IvsFlexGridEvents_SelChangeEventHandler SelChange: 
+    VSFlex6._IvsFlexGridEvents_RowColChangeEventHandler RowColChange: 
+    VSFlex6._IvsFlexGridEvents_EnterCellEventHandler EnterCell: 
+    VSFlex6._IvsFlexGridEvents_LeaveCellEventHandler LeaveCell: 
+    VSFlex6._IvsFlexGridEvents_ScrollEventHandler Scroll: 
+    VSFlex6._IvsFlexGridEvents_CompareEventHandler Compare: 
+    VSFlex6._IvsFlexGridEvents_AfterUserResizeEventHandler AfterUserResize: 
+    VSFlex6._IvsFlexGridEvents_CollapsedEventHandler Collapsed: 
+    VSFlex6._IvsFlexGridEvents_AfterEditEventHandler AfterEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforeEditEventHandler BeforeEdit: 
+    VSFlex6._IvsFlexGridEvents_KeyPressEditEventHandler KeyPressEdit: 
+    VSFlex6._IvsFlexGridEvents_ValidateEditEventHandler ValidateEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforeDataRefreshEventHandler BeforeDataRefresh: 
+    VSFlex6._IvsFlexGridEvents_AfterDataRefreshEventHandler AfterDataRefresh: 
+    VSFlex6._IvsFlexGridEvents_DrawCellEventHandler DrawCell: 
+    VSFlex6._IvsFlexGridEvents_OLEStartDragEventHandler OLEStartDrag: 
+    VSFlex6._IvsFlexGridEvents_OLEGiveFeedbackEventHandler OLEGiveFeedback: 
+    VSFlex6._IvsFlexGridEvents_OLESetDataEventHandler OLESetData: 
+    VSFlex6._IvsFlexGridEvents_OLECompleteDragEventHandler OLECompleteDrag: 
+    VSFlex6._IvsFlexGridEvents_OLEDragOverEventHandler OLEDragOver: 
+    VSFlex6._IvsFlexGridEvents_OLEDragDropEventHandler OLEDragDrop: 
+    VSFlex6._IvsFlexGridEvents_KeyDownEditEventHandler KeyDownEdit: 
+    VSFlex6._IvsFlexGridEvents_KeyUpEditEventHandler KeyUpEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforePageBreakEventHandler BeforePageBreak: 
+    VSFlex6._IvsFlexGridEvents_GetHeaderRowEventHandler GetHeaderRow: 
+    VSFlex6._IvsFlexGridEvents_ErrorEventHandler Error: 
+    VSFlex6._IvsFlexGridEvents_BeforeUserResizeEventHandler BeforeUserResize: 
+    VSFlex6._IvsFlexGridEvents_BeforeSortEventHandler BeforeSort: 
+    VSFlex6._IvsFlexGridEvents_AfterSortEventHandler AfterSort: 
+    VSFlex6._IvsFlexGridEvents_BeforeMoveColumnEventHandler BeforeMoveColumn: 
+    VSFlex6._IvsFlexGridEvents_AfterMoveColumnEventHandler AfterMoveColumn: 
+    VSFlex6._IvsFlexGridEvents_CellButtonClickEventHandler CellButtonClick: 
+    VSFlex6._IvsFlexGridEvents_BeforeMouseDownEventHandler BeforeMouseDown: 
+    VSFlex6._IvsFlexGridEvents_ChangeEditEventHandler ChangeEdit: 
+    VSFlex6._IvsFlexGridEvents_BeforeScrollTipEventHandler BeforeScrollTip: 
+    VSFlex6._IvsFlexGridEvents_ClickEventHandler Click: 
+    VSFlex6._IvsFlexGridEvents_DblClickEventHandler DblClick: 
+    VSFlex6._IvsFlexGridEvents_KeyDownEventHandler KeyDown: 
+    VSFlex6._IvsFlexGridEvents_KeyPressEventHandler KeyPress: 
+    VSFlex6._IvsFlexGridEvents_KeyUpEventHandler KeyUp: 
+    VSFlex6._IvsFlexGridEvents_MouseDownEventHandler MouseDown: 
+    VSFlex6._IvsFlexGridEvents_MouseMoveEventHandler MouseMove: 
+    VSFlex6._IvsFlexGridEvents_MouseUpEventHandler MouseUp: 
+  Methods:
+    remove_MouseUp(_IvsFlexGridEvents_MouseUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_SelChange(_IvsFlexGridEvents_SelChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_SelChange(_IvsFlexGridEvents_SelChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_RowColChange(_IvsFlexGridEvents_RowColChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_RowColChange(_IvsFlexGridEvents_RowColChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_EnterCell(_IvsFlexGridEvents_EnterCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_EnterCell(_IvsFlexGridEvents_EnterCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_LeaveCell(_IvsFlexGridEvents_LeaveCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_LeaveCell(_IvsFlexGridEvents_LeaveCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_Scroll(_IvsFlexGridEvents_ScrollEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_Scroll(_IvsFlexGridEvents_ScrollEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_Compare(_IvsFlexGridEvents_CompareEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_Compare(_IvsFlexGridEvents_CompareEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_AfterUserResize(_IvsFlexGridEvents_AfterUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_AfterUserResize(_IvsFlexGridEvents_AfterUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_Collapsed(_IvsFlexGridEvents_CollapsedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_Collapsed(_IvsFlexGridEvents_CollapsedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_AfterEdit(_IvsFlexGridEvents_AfterEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_AfterEdit(_IvsFlexGridEvents_AfterEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeEdit(_IvsFlexGridEvents_BeforeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeEdit(_IvsFlexGridEvents_BeforeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_KeyPressEdit(_IvsFlexGridEvents_KeyPressEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_KeyPressEdit(_IvsFlexGridEvents_KeyPressEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_ValidateEdit(_IvsFlexGridEvents_ValidateEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_ValidateEdit(_IvsFlexGridEvents_ValidateEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeDataRefresh(_IvsFlexGridEvents_BeforeDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeDataRefresh(_IvsFlexGridEvents_BeforeDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_AfterDataRefresh(_IvsFlexGridEvents_AfterDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_AfterDataRefresh(_IvsFlexGridEvents_AfterDataRefreshEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_DrawCell(_IvsFlexGridEvents_DrawCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_DrawCell(_IvsFlexGridEvents_DrawCellEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_OLEStartDrag(_IvsFlexGridEvents_OLEStartDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_OLEStartDrag(_IvsFlexGridEvents_OLEStartDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_OLEGiveFeedback(_IvsFlexGridEvents_OLEGiveFeedbackEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_OLEGiveFeedback(_IvsFlexGridEvents_OLEGiveFeedbackEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_OLESetData(_IvsFlexGridEvents_OLESetDataEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_OLESetData(_IvsFlexGridEvents_OLESetDataEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_OLECompleteDrag(_IvsFlexGridEvents_OLECompleteDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_OLECompleteDrag(_IvsFlexGridEvents_OLECompleteDragEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_OLEDragOver(_IvsFlexGridEvents_OLEDragOverEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_OLEDragOver(_IvsFlexGridEvents_OLEDragOverEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_OLEDragDrop(_IvsFlexGridEvents_OLEDragDropEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_OLEDragDrop(_IvsFlexGridEvents_OLEDragDropEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_KeyDownEdit(_IvsFlexGridEvents_KeyDownEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_KeyDownEdit(_IvsFlexGridEvents_KeyDownEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_KeyUpEdit(_IvsFlexGridEvents_KeyUpEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_KeyUpEdit(_IvsFlexGridEvents_KeyUpEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforePageBreak(_IvsFlexGridEvents_BeforePageBreakEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforePageBreak(_IvsFlexGridEvents_BeforePageBreakEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_GetHeaderRow(_IvsFlexGridEvents_GetHeaderRowEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_GetHeaderRow(_IvsFlexGridEvents_GetHeaderRowEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_Error(_IvsFlexGridEvents_ErrorEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_Error(_IvsFlexGridEvents_ErrorEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeUserResize(_IvsFlexGridEvents_BeforeUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeUserResize(_IvsFlexGridEvents_BeforeUserResizeEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeSort(_IvsFlexGridEvents_BeforeSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeSort(_IvsFlexGridEvents_BeforeSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_AfterSort(_IvsFlexGridEvents_AfterSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_AfterSort(_IvsFlexGridEvents_AfterSortEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeMoveColumn(_IvsFlexGridEvents_BeforeMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeMoveColumn(_IvsFlexGridEvents_BeforeMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_AfterMoveColumn(_IvsFlexGridEvents_AfterMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_AfterMoveColumn(_IvsFlexGridEvents_AfterMoveColumnEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_CellButtonClick(_IvsFlexGridEvents_CellButtonClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_CellButtonClick(_IvsFlexGridEvents_CellButtonClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeMouseDown(_IvsFlexGridEvents_BeforeMouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeMouseDown(_IvsFlexGridEvents_BeforeMouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_ChangeEdit(_IvsFlexGridEvents_ChangeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_ChangeEdit(_IvsFlexGridEvents_ChangeEditEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_BeforeScrollTip(_IvsFlexGridEvents_BeforeScrollTipEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_BeforeScrollTip(_IvsFlexGridEvents_BeforeScrollTipEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_Click(_IvsFlexGridEvents_ClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_Click(_IvsFlexGridEvents_ClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_DblClick(_IvsFlexGridEvents_DblClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_DblClick(_IvsFlexGridEvents_DblClickEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_KeyDown(_IvsFlexGridEvents_KeyDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_KeyDown(_IvsFlexGridEvents_KeyDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_KeyPress(_IvsFlexGridEvents_KeyPressEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_KeyPress(_IvsFlexGridEvents_KeyPressEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_KeyUp(_IvsFlexGridEvents_KeyUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_KeyUp(_IvsFlexGridEvents_KeyUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_MouseDown(_IvsFlexGridEvents_MouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_MouseDown(_IvsFlexGridEvents_MouseDownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_MouseMove(_IvsFlexGridEvents_MouseMoveEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    remove_MouseMove(_IvsFlexGridEvents_MouseMoveEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_MouseUp(_IvsFlexGridEvents_MouseUpEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class VSFlex6._IvsFlexGridEvents_SelChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_RowColChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_EnterCellEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_LeaveCellEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_ScrollEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_CompareEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_AfterUserResizeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_CollapsedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_AfterEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_KeyPressEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_ValidateEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeDataRefreshEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_AfterDataRefreshEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_DrawCellEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_OLEStartDragEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(vsDataObject&(HasFieldMarshal), Int32&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_OLEGiveFeedbackEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32&, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_OLESetDataEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(vsDataObject&(HasFieldMarshal), Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_OLECompleteDragEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_OLEDragOverEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(vsDataObject&(HasFieldMarshal), Int32&, Int16, Int16, Single, Single, Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_OLEDragDropEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(vsDataObject&(HasFieldMarshal), Int32&, Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_KeyDownEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Int16&, Int16): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_KeyUpEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Int16&, Int16): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforePageBreakEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_GetHeaderRowEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_ErrorEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeUserResizeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeSortEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_AfterSortEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeMoveColumnEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_AfterMoveColumnEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_CellButtonClickEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeMouseDownEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16, Int16, Single, Single, Boolean&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_ChangeEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_BeforeScrollTipEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_ClickEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_DblClickEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_KeyDownEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16&, Int16): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_KeyPressEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16&): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_KeyUpEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16&, Int16): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_MouseDownEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_MouseMoveEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+Class VSFlex6._IvsFlexGridEvents_MouseUpEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, UIntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+Interface VSFlex6.vsFlexGrid: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    VSFlex6.IvsFlexGrid
+    VSFlex6._IvsFlexGridEvents_Event
+Class VSFlex6.vsFlexStringClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    VSFlex6.IvsFlexString
+    VSFlex6.vsFlexString
+  Properties:
+    System.String Text 'get set' : 
+    Int16 Version 'get set' : 
+    System.String Pattern 'get set' : 
+    System.String Replace 'get set' : 
+    Int32 MatchCount 'get set' : 
+    Int32 MatchIndex 'get set' : 
+    Int32 MatchStart [System.Object] 'get ' : 
+    Int32 MatchLength [System.Object] 'get ' : 
+    System.String MatchString [System.Object] 'get set' : 
+    Int32 TagCount 'get set' : 
+    Int32 TagIndex 'get set' : 
+    Int32 TagStart [System.Object] 'get ' : 
+    Int32 TagLength [System.Object] 'get ' : 
+    System.String TagString [System.Object] 'get set' : 
+    VSFlex6.StringErrorSettings Error 'get ' : 
+    System.String Soundex 'get ' : 
+    Boolean CaseSensitive 'get set' : 
+  Methods:
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Text(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Version(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Version(Int16(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Pattern(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Pattern(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Replace(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Replace(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MatchCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MatchCount(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MatchIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MatchIndex(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MatchStart(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MatchLength(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MatchString(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MatchString(Object(Optional, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TagCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TagCount(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TagIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TagIndex(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TagStart(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TagLength(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TagString(Object(Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TagString(Object(Optional, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Error(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Soundex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CaseSensitive(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CaseSensitive(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    About(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface VSFlex6.vsFlexString: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    VSFlex6.IvsFlexString
+Class VSFlex6._IvsFlexGridEvents_SinkHelper: AutoLayout, AnsiClass, Class, Public, Sealed
+  Interfaces:
+    VSFlex6._IvsFlexGridEvents
+  Fields:
+    VSFlex6._IvsFlexGridEvents_SelChangeEventHandler m_SelChangeDelegate : Public
+    VSFlex6._IvsFlexGridEvents_RowColChangeEventHandler m_RowColChangeDelegate : Public
+    VSFlex6._IvsFlexGridEvents_EnterCellEventHandler m_EnterCellDelegate : Public
+    VSFlex6._IvsFlexGridEvents_LeaveCellEventHandler m_LeaveCellDelegate : Public
+    VSFlex6._IvsFlexGridEvents_ScrollEventHandler m_ScrollDelegate : Public
+    VSFlex6._IvsFlexGridEvents_CompareEventHandler m_CompareDelegate : Public
+    VSFlex6._IvsFlexGridEvents_AfterUserResizeEventHandler m_AfterUserResizeDelegate : Public
+    VSFlex6._IvsFlexGridEvents_CollapsedEventHandler m_CollapsedDelegate : Public
+    VSFlex6._IvsFlexGridEvents_AfterEditEventHandler m_AfterEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeEditEventHandler m_BeforeEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_KeyPressEditEventHandler m_KeyPressEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_ValidateEditEventHandler m_ValidateEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeDataRefreshEventHandler m_BeforeDataRefreshDelegate : Public
+    VSFlex6._IvsFlexGridEvents_AfterDataRefreshEventHandler m_AfterDataRefreshDelegate : Public
+    VSFlex6._IvsFlexGridEvents_DrawCellEventHandler m_DrawCellDelegate : Public
+    VSFlex6._IvsFlexGridEvents_OLEStartDragEventHandler m_OLEStartDragDelegate : Public
+    VSFlex6._IvsFlexGridEvents_OLEGiveFeedbackEventHandler m_OLEGiveFeedbackDelegate : Public
+    VSFlex6._IvsFlexGridEvents_OLESetDataEventHandler m_OLESetDataDelegate : Public
+    VSFlex6._IvsFlexGridEvents_OLECompleteDragEventHandler m_OLECompleteDragDelegate : Public
+    VSFlex6._IvsFlexGridEvents_OLEDragOverEventHandler m_OLEDragOverDelegate : Public
+    VSFlex6._IvsFlexGridEvents_OLEDragDropEventHandler m_OLEDragDropDelegate : Public
+    VSFlex6._IvsFlexGridEvents_KeyDownEditEventHandler m_KeyDownEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_KeyUpEditEventHandler m_KeyUpEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforePageBreakEventHandler m_BeforePageBreakDelegate : Public
+    VSFlex6._IvsFlexGridEvents_GetHeaderRowEventHandler m_GetHeaderRowDelegate : Public
+    VSFlex6._IvsFlexGridEvents_ErrorEventHandler m_ErrorDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeUserResizeEventHandler m_BeforeUserResizeDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeSortEventHandler m_BeforeSortDelegate : Public
+    VSFlex6._IvsFlexGridEvents_AfterSortEventHandler m_AfterSortDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeMoveColumnEventHandler m_BeforeMoveColumnDelegate : Public
+    VSFlex6._IvsFlexGridEvents_AfterMoveColumnEventHandler m_AfterMoveColumnDelegate : Public
+    VSFlex6._IvsFlexGridEvents_CellButtonClickEventHandler m_CellButtonClickDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeMouseDownEventHandler m_BeforeMouseDownDelegate : Public
+    VSFlex6._IvsFlexGridEvents_ChangeEditEventHandler m_ChangeEditDelegate : Public
+    VSFlex6._IvsFlexGridEvents_BeforeScrollTipEventHandler m_BeforeScrollTipDelegate : Public
+    VSFlex6._IvsFlexGridEvents_ClickEventHandler m_ClickDelegate : Public
+    VSFlex6._IvsFlexGridEvents_DblClickEventHandler m_DblClickDelegate : Public
+    VSFlex6._IvsFlexGridEvents_KeyDownEventHandler m_KeyDownDelegate : Public
+    VSFlex6._IvsFlexGridEvents_KeyPressEventHandler m_KeyPressDelegate : Public
+    VSFlex6._IvsFlexGridEvents_KeyUpEventHandler m_KeyUpDelegate : Public
+    VSFlex6._IvsFlexGridEvents_MouseDownEventHandler m_MouseDownDelegate : Public
+    VSFlex6._IvsFlexGridEvents_MouseMoveEventHandler m_MouseMoveDelegate : Public
+    VSFlex6._IvsFlexGridEvents_MouseUpEventHandler m_MouseUpDelegate : Public
+    Int32 m_dwCookie : Public
+  Methods:
+    SelChange(): PrivateScope, Public, Virtual
+    RowColChange(): PrivateScope, Public, Virtual
+    EnterCell(): PrivateScope, Public, Virtual
+    LeaveCell(): PrivateScope, Public, Virtual
+    Scroll(): PrivateScope, Public, Virtual
+    Compare(Int32, Int32, Int16&): PrivateScope, Public, Virtual
+    AfterUserResize(Int32, Int32): PrivateScope, Public, Virtual
+    Collapsed(): PrivateScope, Public, Virtual
+    AfterEdit(Int32, Int32): PrivateScope, Public, Virtual
+    BeforeEdit(Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+    KeyPressEdit(Int32, Int32, Int16&): PrivateScope, Public, Virtual
+    ValidateEdit(Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+    BeforeDataRefresh(Boolean&): PrivateScope, Public, Virtual
+    AfterDataRefresh(): PrivateScope, Public, Virtual
+    DrawCell(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+    OLEStartDrag(vsDataObject&, Int32&): PrivateScope, Public, Virtual
+    OLEGiveFeedback(Int32&, Boolean&): PrivateScope, Public, Virtual
+    OLESetData(vsDataObject&, Int16&): PrivateScope, Public, Virtual
+    OLECompleteDrag(Int32&): PrivateScope, Public, Virtual
+    OLEDragOver(vsDataObject&, Int32&, Int16, Int16, Single, Single, Int16&): PrivateScope, Public, Virtual
+    OLEDragDrop(vsDataObject&, Int32&, Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+    KeyDownEdit(Int32, Int32, Int16&, Int16): PrivateScope, Public, Virtual
+    KeyUpEdit(Int32, Int32, Int16&, Int16): PrivateScope, Public, Virtual
+    BeforePageBreak(Int32, Boolean&): PrivateScope, Public, Virtual
+    GetHeaderRow(Int32, Int32&): PrivateScope, Public, Virtual
+    Error(Int32, Boolean&): PrivateScope, Public, Virtual
+    BeforeUserResize(Int32, Int32, Boolean&): PrivateScope, Public, Virtual
+    BeforeSort(Int32, Int16&): PrivateScope, Public, Virtual
+    AfterSort(Int32, Int16&): PrivateScope, Public, Virtual
+    BeforeMoveColumn(Int32, Int32&): PrivateScope, Public, Virtual
+    AfterMoveColumn(Int32, Int32&): PrivateScope, Public, Virtual
+    CellButtonClick(Int32, Int32): PrivateScope, Public, Virtual
+    BeforeMouseDown(Int16, Int16, Single, Single, Boolean&): PrivateScope, Public, Virtual
+    ChangeEdit(): PrivateScope, Public, Virtual
+    BeforeScrollTip(Int32): PrivateScope, Public, Virtual
+    Click(): PrivateScope, Public, Virtual
+    DblClick(): PrivateScope, Public, Virtual
+    KeyDown(Int16&, Int16): PrivateScope, Public, Virtual
+    KeyPress(Int16&): PrivateScope, Public, Virtual
+    KeyUp(Int16&, Int16): PrivateScope, Public, Virtual
+    MouseDown(Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+    MouseMove(Int16, Int16, Single, Single): PrivateScope, Public, Virtual
+    MouseUp(Int16, Int16, Single, Single): PrivateScope, Public, Virtual

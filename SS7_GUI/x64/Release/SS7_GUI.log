@@ -1,0 +1,121 @@
+﻿  AssemblyInfo.cpp
+AssemblyInfo.cpp(3): error C2871: 'System' : a namespace with this name does not exist
+AssemblyInfo.cpp(4): error C2653: 'System' : is not a class or namespace name
+AssemblyInfo.cpp(4): error C2871: 'Reflection' : a namespace with this name does not exist
+AssemblyInfo.cpp(5): error C2653: 'System' : is not a class or namespace name
+AssemblyInfo.cpp(5): error C2871: 'CompilerServices' : a namespace with this name does not exist
+AssemblyInfo.cpp(6): error C2653: 'System' : is not a class or namespace name
+AssemblyInfo.cpp(6): error C2871: 'InteropServices' : a namespace with this name does not exist
+AssemblyInfo.cpp(7): error C2653: 'System' : is not a class or namespace name
+AssemblyInfo.cpp(7): error C2871: 'Permissions' : a namespace with this name does not exist
+AssemblyInfo.cpp(14): error C2337: 'AssemblyTitleAttribute' : attribute not found
+AssemblyInfo.cpp(15): error C2337: 'AssemblyDescriptionAttribute' : attribute not found
+AssemblyInfo.cpp(16): error C2337: 'AssemblyConfigurationAttribute' : attribute not found
+AssemblyInfo.cpp(17): error C2337: 'AssemblyCompanyAttribute' : attribute not found
+AssemblyInfo.cpp(18): error C2337: 'AssemblyProductAttribute' : attribute not found
+AssemblyInfo.cpp(19): error C2337: 'AssemblyCopyrightAttribute' : attribute not found
+AssemblyInfo.cpp(20): error C2337: 'AssemblyTrademarkAttribute' : attribute not found
+AssemblyInfo.cpp(21): error C2337: 'AssemblyCultureAttribute' : attribute not found
+AssemblyInfo.cpp(34): error C2337: 'AssemblyVersionAttribute' : attribute not found
+AssemblyInfo.cpp(36): error C2337: 'ComVisible' : attribute not found
+AssemblyInfo.cpp(38): error C2337: 'CLSCompliantAttribute' : attribute not found
+AssemblyInfo.cpp(40): error C2337: 'SecurityPermission' : attribute not found
+AssemblyInfo.cpp(40): error C2653: 'SecurityAction' : is not a class or namespace name
+AssemblyInfo.cpp(40): error C2065: 'RequestMinimum' : undeclared identifier
+          missing quotes ("") around 'RequestMinimum'?
+  CRUD.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(13): error C2871: 'System' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(14): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(14): error C2871: 'ComponentModel' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(15): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(15): error C2871: 'Collections' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(16): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(16): error C2871: 'Forms' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(17): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(17): error C2871: 'Data' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(18): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(18): error C2871: 'Drawing' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(19): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(19): error C2871: 'SqlClient' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(24): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(24): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(24): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(25): error C2143: syntax error : missing ';' before '{'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(25): error C2447: '{' : missing function header (old-style formal list?)
+  help.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(5): error C2871: 'System' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(6): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(6): error C2871: 'ComponentModel' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(7): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(7): error C2871: 'Collections' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(8): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(8): error C2871: 'Forms' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(9): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(9): error C2871: 'Data' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(10): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(10): error C2871: 'Drawing' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(15): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(15): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(15): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(16): error C2143: syntax error : missing ';' before '{'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(16): error C2447: '{' : missing function header (old-style formal list?)
+  SS7_GUI.cpp
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(5): error C2871: 'System' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(6): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(6): error C2871: 'ComponentModel' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(7): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(7): error C2871: 'Collections' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(8): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(8): error C2871: 'Forms' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(9): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(9): error C2871: 'Data' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(10): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(10): error C2871: 'Drawing' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(15): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(15): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(15): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(16): error C2143: syntax error : missing ';' before '{'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\help.h(16): error C2447: '{' : missing function header (old-style formal list?)
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(13): error C2871: 'System' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(14): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(14): error C2871: 'ComponentModel' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(15): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(15): error C2871: 'Collections' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(16): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(16): error C2871: 'Forms' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(17): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(17): error C2871: 'Data' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(18): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(18): error C2871: 'Drawing' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(19): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(19): error C2871: 'SqlClient' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(24): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(24): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(24): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(25): error C2143: syntax error : missing ';' before '{'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\CRUD.h(25): error C2447: '{' : missing function header (old-style formal list?)
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(8): error C2871: 'System' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(9): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(9): error C2871: 'ComponentModel' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(10): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(10): error C2871: 'Collections' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(11): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(11): error C2871: 'Forms' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(12): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(12): error C2871: 'Data' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(13): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(13): error C2871: 'Drawing' : a namespace with this name does not exist
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(18): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(18): error C2059: syntax error : 'public'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(18): error C2653: 'System' : is not a class or namespace name
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(19): error C2143: syntax error : missing ';' before '{'
+c:\users\vostro 3568\documents\visual studio 2010\projects\ss7_gui\ss7_gui\Form1.h(19): error C2447: '{' : missing function header (old-style formal list?)
+SS7_GUI.cpp(8): error C2337: 'STAThreadAttribute' : attribute not found
+SS7_GUI.cpp(9): error C2065: 'array' : undeclared identifier
+SS7_GUI.cpp(9): error C2653: 'System' : is not a class or namespace name
+SS7_GUI.cpp(9): error C2065: 'String' : undeclared identifier
+SS7_GUI.cpp(9): error C2059: syntax error : '>'
+SS7_GUI.cpp(10): error C2143: syntax error : missing ';' before '{'
+SS7_GUI.cpp(10): error C2447: '{' : missing function header (old-style formal list?)
+  stdafx.cpp
+  Generating Code...
